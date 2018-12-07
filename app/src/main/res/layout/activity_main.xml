@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.irongbei.zs.emailtest.MailBoxAssociateView
+        android:id="@+id/imageviewedittextone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="67dp"
+        android:hint="地址"
+        android:paddingLeft="5dp"
+        android:popupBackground="@android:color/darker_gray"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/holo_purple"
+        android:textSize="16sp" />
+
+</LinearLayout>
